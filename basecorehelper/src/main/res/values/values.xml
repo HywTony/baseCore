@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">basecorehelper</string>
+    <string name="pemission_camera">扫描二维码,需要系统\"拍照\"权限,请点击授予!</string>
+    <string name="permission_audio">骑记直播视频录制,需要系统\"麦克风\"权限,请点击授予!</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_loc">需要获取定位所需的\"位置信息\"权限,请点击授予!</string>
+    <string name="permission_need">需要权限授予</string>
+    <string name="permission_outgoing_calls">为避免骑行运行过程中,影响用户接听电话,需要获取系统\"电话\"权限,请点击授予!</string>
+    <string name="permission_overlay">为保持骑记运行正常,请设置骑记允许在其他应用上层显示!</string>
+    <string name="permission_setting">设置</string>
+    <string name="permission_storage">骑记记录的轨迹及直播数据,需要读写\"存储空间\"权限,请点击授予!</string>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/base_dialog_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/base_dialog_slide_down</item>
+    </style>
+    <style name="DialogTopAnimation">
+        <item name="android:windowEnterAnimation">@anim/base_dialog_top_open</item>
+        <item name="android:windowExitAnimation">@anim/base_dialog_top_close</item>
+    </style>
+    <declare-styleable name="TwoLineTextLayout"><attr format="boolean" name="unitOnTop"/><attr format="string" name="datatype"/><attr format="string" name="unittype"/><attr format="dimension" name="unittextSize"/><attr format="string" name="unittext"/><attr format="dimension" name="datatextSize"/><attr format="string" name="datatext"/><attr format="color" name="unittextColor"/><attr format="color" name="datatextColor"/><attr format="dimension" name="marginTop"/><attr name="layoutOrientation">
+        <enum name="center" value="0"/>
+        <enum name="left" value="1"/>
+    </attr></declare-styleable>
+    <item name="id_1" type="id"/>
+    <item name="id_2" type="id"/>
+    <style name="AppThemeFitsSystemWindows" parent="android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="AppThemeFullScreen" parent="android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+</resources>
